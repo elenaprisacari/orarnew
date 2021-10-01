@@ -595,3 +595,27 @@ select.arrows {
     grid-row-start: 3;
     grid-column: 5/6;
 }
+.seminar{
+    background-color: rgb(240, 173, 85);
+    color: cornsilk;
+    font-weight: bold;
+    text-align: center;
+}
+.seminar1{
+    background-color: rgb(240, 116, 85);
+    color: cornsilk;
+    font-weight: bold;
+    text-align: center;
+}
+.prelegere{
+    background-color: rgb(85, 240, 93);
+    color: cornsilk;
+    font-weight: bold;
+    text-align: center;
+}
+.laborator{
+    background-color: rgb(33, 18, 100);
+    color: cornsilk;
+    font-weight: bold;
+    text-align: center;
+}
