@@ -73,6 +73,8 @@ body{
 .h4{
     grid-column: 5/8;
     grid-row-start: 2;
+}
+.k2{
     background-color:#525353a4;
     width: 90%;
     height:30px;
@@ -552,6 +554,44 @@ select.arrows {
  .time{
      height:60px;
  }
+.zagrujennosti{
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    grid-template-columns: 2fr 1fr 8fr 1fr 8fr 1fr 1fr 1fr 1fr 1fr;
+}
+.choice1{
+    grid-row-start: 3;
+}
+.data1{
+    grid-row-start: 3;
+    grid-column: 2/3;
+    width: 100%;
+    height: 70%;
+    justify-self: right;
+    align-self: right;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align:center;
+}
+.data2{
+    grid-row-start: 3;
+    grid-column: 4/5;
+    width: 100%;
+    height: 70%;
+    justify-self: right;
+    align-self: right;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align:center;
+}
+.data11{
+    grid-row-start: 3;
+    grid-column: 3/4;
+}
 
-
-
+.data21{
+    grid-row-start: 3;
+    grid-column: 5/6;
+}
